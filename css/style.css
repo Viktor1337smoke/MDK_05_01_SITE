@@ -1,0 +1,1208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    background-color: rgb(0, 0, 0);
+}
+html {
+    scroll-behavior: smooth;
+}
+.image-container {
+    position: relative;
+}
+.image-container img {
+    width: 100%; 
+    height: auto;
+}
+.image-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.image-container1 img {
+width: 150px;
+height: 150px;
+position: absolute;
+top: 0px;
+}
+
+.colorbutton {
+    background-color: #ffffff00; /* Цвет по умолчанию */
+    color: white; /* Цвет текста */
+    padding: 0px 32px; /* Отступы */
+    text-align: center; /* Центрирование текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Устанавливаем блочный элемент */
+    font-size: 36px; /* Размер шрифта */
+    font-family: Oswald;
+    margin: 4px 2px; /* Внешние отступы */
+    cursor: pointer; /* Курсор при наведении */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Скругляем углы */
+}
+
+.colorbutton {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.colorbutton:hover {
+    transform: scale(1.05); /* Увеличение изображения на 20% */
+}
+
+.colorbutton:hover {
+    color: orange /* Цвет при наведении */
+}
+
+.colorbutton:active {
+    color: #fdfdfd; /* Цвет при нажатии */
+}
+
+.colorbutton1 {
+    background-color: #ffffff00; /* Цвет по умолчанию */
+    color: white; /* Цвет текста */
+    padding: 0px 32px; /* Отступы */
+    text-align: center; /* Центрирование текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Устанавливаем блочный элемент */
+    font-size: 36px; /* Размер шрифта */
+    font-family: Oswald;
+    margin: 4px 2px; /* Внешние отступы */
+    cursor: pointer; /* Курсор при наведении */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Скругляем углы */
+}
+
+.colorbutton1 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.colorbutton1:hover {
+    transform: scale(1.05); /* Увеличение изображения на 20% */
+}
+
+.colorbutton1:hover {
+    color: orange /* Цвет при наведении */
+}
+
+.colorbutton1:active {
+    color: #fdfdfd; /* Цвет при нажатии */
+}
+ 
+
+.colorbutton2 {
+    background-color: #ffffff00; /* Цвет по умолчанию */
+    color: white; /* Цвет текста */
+    padding: 0px 32px; /* Отступы */
+    text-align: center; /* Центрирование текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Устанавливаем блочный элемент */
+    font-size: 36px; /* Размер шрифта */
+    font-family: Oswald;
+    margin: 4px 2px; /* Внешние отступы */
+    cursor: pointer; /* Курсор при наведении */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Скругляем углы */
+}
+
+.colorbutton2 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.colorbutton2:hover {
+    transform: scale(1.05); /* Увеличение изображения на 20% */
+}
+
+
+.colorbutton2:hover {
+    color: orange /* Цвет при наведении */
+}
+
+.colorbutton2:active {
+    color: #fdfdfd; /* Цвет при нажатии */
+}
+ 
+
+.colorbutton3 {
+    background-color: #ffffff00; /* Цвет по умолчанию */
+    color: white; /* Цвет текста */
+    padding: 0px 32px; /* Отступы */
+    text-align: center; /* Центрирование текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Устанавливаем блочный элемент */
+    font-size: 36px; /* Размер шрифта */
+    font-family: Oswald;
+    margin: 4px 2px; /* Внешние отступы */
+    cursor: pointer; /* Курсор при наведении */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Скругляем углы */
+}
+
+.colorbutton3{
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.colorbutton3:hover {
+    transform: scale(1.05); /* Увеличение изображения на 20% */
+}
+
+.colorbutton3:hover {
+    color: orange /* Цвет при наведении */
+}
+
+.colorbutton3:active {
+    color: #fdfdfd; /* Цвет при нажатии */
+}
+ 
+.colorbutton4 {
+    background-color: #ffffff00; /* Цвет по умолчанию */
+    color: white; /* Цвет текста */
+    padding: 0px 32px; /* Отступы */
+    text-align: center; /* Центрирование текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Устанавливаем блочный элемент */
+    font-size: 36px; /* Размер шрифта */
+    font-family: Oswald;
+    margin: 4px 2px; /* Внешние отступы */
+    cursor: pointer; /* Курсор при наведении */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Скругляем углы */
+}
+
+.colorbutton4 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.colorbutton4:hover {
+    transform: scale(1.05); /* Увеличение изображения на 20% */
+}
+
+.colorbutton4:hover {
+    color: orange /* Цвет при наведении */
+}
+
+.colorbutton4:active {
+    color: #fdfdfd; /* Цвет при нажатии */
+}
+
+
+ 
+.kvadrat1 {
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 0px; /* Расположение сверху (можно настроить) */
+    left: 0px; /* Расположение слева (можно настроить) */
+    width: 100%; /* Ширина прямоугольника */
+    height: 150px; /* Высота прямоугольника */
+    background-color: rgba(255, 255, 255, 0.35); /* Белый цвет с прозрачностью */
+}
+.kvadrat2 {
+    position: absolute; 
+    top: 150px; 
+    left: 0px; 
+    width: 100%; 
+    height: 125px; 
+    background-color: rgba(255, 255, 255, 0.45); 
+}
+
+.text1 {
+position: absolute; /* Устанавливаем относительное позиционирование для контейнера */
+top: -35px;
+left: 1100px;
+font-size: 36px;
+padding: 20px; /* Добавляем отступы вокруг текста */
+font-family: Oswald;
+color: #f4f4f4;
+}
+
+.text2 {
+position: absolute; /* Устанавливаем относительное позиционирование для контейнера */
+top: 160px;
+left: 265px;
+font-size: 40px;
+padding: 20px; /* Добавляем отступы вокруг текста */
+font-family: Oswald;
+}
+
+.text3 {
+position: absolute; /* Устанавливаем относительное позиционирование для контейнера */
+top: 160px;
+left: 550px;
+font-size: 40px;
+padding: 20px; /* Добавляем отступы вокруг текста */
+font-family: Oswald;
+}
+
+.text4 {
+position: absolute; /* Устанавливаем относительное позиционирование для контейнера */
+top: 160px;
+left: 850px;
+font-size: 40px;
+padding: 20px; /* Добавляем отступы вокруг текста */
+font-family: Oswald;
+}
+
+.text5 {
+position: absolute; /* Устанавливаем относительное позиционирование для контейнера */
+top: 160px;
+left: 1150px;
+font-size: 40px;
+padding: 20px; /* Добавляем отступы вокруг текста */
+font-family: Oswald;
+}
+
+.text6 {
+position: absolute; /* Устанавливаем относительное позиционирование для контейнера */
+top: 160px;
+left: 1400px;
+font-size: 40px;
+padding: 20px; /* Добавляем отступы вокруг текста */
+font-family: Oswald;
+}
+.image-container2 {
+    position: absolute; /* Устанавливаем относительное позиционирование для контейнера */
+    top: 190px;
+    left: 1670px;
+}
+
+.image-container2 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.image-container2:hover {
+    transform: scale(1.3); /* Увеличение изображения на 30% */
+}
+
+.image-container2 img {
+width: 50px;
+height: 50px;
+position: static;
+top: 70px;
+left:150px;
+}
+
+.image-container3 {
+position: absolute; 
+top: 190px;
+left: 1770px;
+}
+.image-container3 img {
+width: 50px;
+height: 50px;
+position: static;
+top: 60px;
+left:35px;
+}
+
+.image-container3 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.image-container3:hover {
+    transform: scale(1.3); /* Увеличение изображения на 30% */
+}
+
+.button1 {
+    background: linear-gradient(90deg, rgba(255,255,0,1) 0%, rgba(252,126,0,1) 60%, rgba(153,71,0,1) 100%);
+    color: white; 
+    border: none; 
+    padding: 25px 55px;
+    font-family: Oswald; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 26px; 
+    cursor: pointer;
+    border-radius: 100px; 
+    position: absolute;
+    top: 560px;
+    left: 825px;
+    overflow: hidden;
+}
+
+.button1 {
+    transition: transform 0.4s ease; /* Плавный переход */
+}
+
+.button1:hover {
+    transform: scale(1.05); /* Увеличение изображения на 5% */
+}
+
+.button1:hover {
+    color: rgb(0, 0, 0) /* Цвет при наведении */
+}
+
+.button1:active {
+    color: #ffffff; /* Цвет при нажатии */
+}
+
+.zagolovok1 {
+    color: #ff8c00;
+    font-size: 36px;
+    position: absolute;
+    top: 1050px;
+    left:875px;
+    font-family: Overpass;
+}
+.fon1 {
+    width: 100%; 
+    height: auto;
+}
+.image-container4 {
+position: absolute;
+top: 1150px;
+left: 200px;
+left: 24%;
+}
+.image-container4_1 {
+width: auto;
+height: 500px;
+}
+.text7 {
+position: absolute;
+top: 1650px;
+color: #f4f4f4;
+left: 24%;
+font-size: 20px;
+}
+.discounted-price {
+    text-decoration: line-through; /* Зачеркивание текста */
+    color: red; /* Цвет для старой цены */
+}
+
+.original-price {
+    color: green; /* Цвет для новой цены */
+    font-weight: bold; /* Жирный текст для выделения */
+}
+.fon2 {
+    width: 100%; 
+    height: auto;
+}
+.zagolovok2 {
+    color: #ff8c00;
+    font-size: 36px;
+    position: absolute;
+    top: 2200px;
+    left:825px;
+    font-family: Overpass;
+}
+.product-card1 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card1 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card1:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+.product-image1 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info1 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name1 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price1 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price1 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti1 {
+color: black;
+font-family: Orbitron;
+}
+.product-price1, .texti1 {
+text-align: center;
+}
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+
+
+.product-card1 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2350px; 
+    left:175px; 
+    width: 300px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 9px; /* Внутренние отступы */
+}
+
+.product-image1 {
+    width: 300px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+.product-card2 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card2 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card2:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+.product-image2 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info2 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name2 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price2 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price2 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti2 {
+color: black;
+font-family: Orbitron;
+}
+.product-price2, .texti2 {
+text-align: center;
+}
+
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+.product-card2 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2350px; 
+    left: 585px; 
+    width: 300px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 10px; /* Внутренние отступы */
+}
+
+.product-image2 {
+    width: 270px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+.product-card3 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card3 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card3:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+
+.product-image3 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info3 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name3 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price3 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price3 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti3 {
+color: black;
+font-family: Orbitron;
+}
+.product-price3, .texti3 {
+text-align: center;
+}
+
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+.product-card3 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2350px; /* Сдвигаем вниз на 50 пикселей */
+    left: 1000px; /* Сдвигаем вправо на 20 пикселей */
+    width:300px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 10px; /* Внутренние отступы */
+}
+
+.product-image3 {
+    width: 240px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+.product-card4 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card4 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card4:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+.product-image4 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info4 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name4 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price4 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price4 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti4 {
+color: black;
+font-family: Orbitron;
+}
+.product-price4, .texti4 {
+text-align: center;
+}
+
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+.product-card4 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2350px; /* Сдвигаем вниз на 50 пикселей */
+    left: 1410px; /* Сдвигаем вправо на 20 пикселей */
+    width:300px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 12px; /* Внутренние отступы */
+}
+
+.product-image4 {
+    width: 300px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+.product-card5 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card5 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card5:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+.product-image5 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info5 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name5 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price5 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price5 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti5 {
+color: black;
+font-family: Orbitron;
+}
+.product-price5, .texti5 {
+text-align: center;
+}
+
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+.product-card5 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2750px; /* Сдвигаем вниз на 50 пикселей */
+    left: 175px; /* Сдвигаем вправо на 20 пикселей */
+    width:300px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 10px; /* Внутренние отступы */
+}
+
+.product-image5 {
+    width: 245px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+.product-card6 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card6 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card6:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+
+.product-image6 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info6 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name6 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price6 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price6 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti6 {
+color: black;
+font-family: Orbitron;
+}
+.product-price6, .texti6 {
+text-align: center;
+}
+
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+.product-card6 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2750px; 
+    left: 585px;
+    width: 300px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 10px; /* Внутренние отступы */
+}
+
+.product-image6 {
+    width: 330px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+.product-card7 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card7 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card7:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+.product-image7 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info7 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name7 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price7 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price7 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti7 {
+color: black;
+font-family: Orbitron;
+}
+.product-price7, .texti7 {
+text-align: center;
+}
+
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+.product-card7 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2750px; 
+    left: 1000px; 
+    width: 300px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 10px; /* Внутренние отступы */
+}
+
+.product-image7 {
+    width: 270px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+
+.product-card8 {
+    width: 300px; /* Ширина карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    background-color: #fff; /* Белый фон для карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Тень для эффекта глубины */
+}
+
+.product-card8 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.product-card8:hover {
+    transform: scale(1.1); /* Увеличение изображения на 10% */
+}
+
+
+.product-image8 {
+    width: 100%; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.product-info8 {
+    padding: 16px; /* Внутренние отступы */
+}
+
+.product-name8 {
+    font-size: 18px; /* Размер шрифта для названия товара */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.product-price8 {
+    color: green; /* Цвет для цены */
+    font-family: Orbitron;
+}
+
+.discount-price8 {
+font-family: Orienta;  
+text-align: center;  
+}
+.texti8 {
+color: black;
+font-family: Orbitron;
+}
+.product-price8, .texti8 {
+text-align: center;
+}
+
+.body {
+    position: relative; /* Устанавливаем позицию для body или другого родительского элемента */
+}
+
+.product-card8 {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 2750px; 
+    left: 1410px; 
+    width: 302px; /* Ширина карточки товара */
+    border: 1px solid #ccc; /* Граница для визуализации */
+    background-color: #fff; /* Фон карточки */
+    padding: 12px; /* Внутренние отступы */
+}
+
+.product-image8 {
+    width: 330px; /* Полная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.fon3 {
+    width: 100%; 
+    height:auto;
+}
+.container {
+position: absolute;
+top: 3350px;
+left: 450px;
+width: 975px;
+height: 800px;
+background-color:  rgba(255, 255, 255, 0.5);
+}
+.zagolovok3 {
+position: absolute;
+left:740px;
+top: 3225px;
+color: #ff8c00;
+font-size: 36px;
+font-family: Overpass;
+}
+form {
+position: absolute;
+font-family: Oswald;
+top:3375px;
+left: 495px;
+}
+
+
+
+input {
+    padding: 10px; /* Добавляем внутренние отступы для полей ввода */
+    margin-top: 5px; /* Отступ сверху между меткой и полем ввода */
+}
+textarea {
+    width: 880px; /* Фиксированная ширина */
+    height: 300px; /* Фиксированная высота */
+    resize: none; /* Запретить изменение размера */
+}
+.image-container5 {
+width: 100px;
+height: auto;
+position: absolute;
+top: 3850px;
+left: 1600px;
+}
+
+.image-container5 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.image-container5:hover {
+    transform: scale(1.15); /* Увеличение изображения на 15% */
+}
+
+.image-container6 {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 4000px;
+    left: 1600px;
+    }
+
+.image-container6 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.image-container6:hover {
+    transform: scale(1.15); /* Увеличение изображения на 15% */
+}
+
+.fon4 {
+    width: 100%; 
+    height: auto;
+    }
+.image-container7 {
+width: 100%;
+height:auto;
+position: absolute;
+top: 4800px;
+}
+
+.fyter1 {
+    width: 1902px;
+    height:601px;
+    position: absolute;
+    top: 4800px;
+background: rgba(0, 0, 0, 0.5);
+}
+.fyter2 {
+    width: 835px;
+    height:250px;
+    background-color: rgb(124, 12, 12);
+    position: absolute;
+    top: 4340px;
+    left:500px;
+}
+.fyter3 {
+    width: 755px;
+    height:200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 4365px;
+    left:540px;
+}
+.text8 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Overpass;
+    width: 780px;
+    height:auto;
+    position: absolute;
+    top: 4400px;
+    left:525px;
+}
+.text9 {
+    text-align: left;
+    font-size: 12px;
+    font-family: Overpass;
+    color:white ;
+    width: 200px;
+    height:100px;
+    position: absolute;
+    top: 4815px;
+    left:40px;
+}
+.katalog1 {
+font-size: 16px;
+margin:20px;
+margin-left: 0px;
+}
+.katalog2 {
+font-size: 14px;
+margin: 12px;
+margin-left: 0px;
+color: #b9b9b9;
+}
+.text10 {
+    text-align: left;
+    font-size: 12px;
+    font-family: Overpass;
+    color:white ;
+    width: 200px;
+    height:100px;
+    position: absolute;
+    top: 4815px;
+    left:300px;
+}
+.katalog3 {
+    font-size: 16px;
+    margin:20px;
+    margin-left: 0px;
+}
+.katalog4 {
+font-size: 14px;
+margin: 12px;
+margin-left: 0px;
+color: #b9b9b9;
+}
+.text11 {
+    text-align: left;
+    font-size: 12px;
+    font-family: Overpass;
+    color:white ;
+    width: 200px;
+    height:100px;
+    position: absolute;
+    top: 4815px;
+    left:550px;
+}
+.katalog5 {
+    font-size: 16px;
+    margin:20px;
+    margin-left: 0px;
+}
+.katalog6 {
+    font-size: 14px;
+    margin: 12px;
+    margin-left: 0px;
+    color: #b9b9b9;
+    }
+.text12 {
+    text-align: left;
+    font-size: 12px;
+    font-family: Overpass;
+    color:white ;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top: 4815px;
+    left:1500px;
+}
+
+.katalog7 {
+    font-size: 16px;
+    margin:20px;
+    margin-left: 0px;
+}
+
+.katalog8 {
+width: 200px;
+font-size: 14px;
+margin: 4px;
+color: #b9b9b9;
+}
+
+.katalog9 {
+    font-size: 14px;
+    margin: 4px;
+    margin-top: 40px;
+    width: 300px;
+    color: #b9b9b9;
+    }
+.katalog10 {
+    font-size: 14px;
+    margin: 4px;
+    margin-top: 40px;
+    color: #b9b9b9;
+    }  
+.katalog11 {
+    font-size: 14px;
+    margin: 4px;
+    color: #b9b9b9;
+    }   
+.katalog12 {
+    font-size: 14px;
+    margin: 4px;  
+    color: #b9b9b9;
+    }   
+.katalog13 {
+    font-size: 14px;
+    margin: 4px;  
+    color: #b9b9b9;
+    }   
+.image-container8 {
+position: absolute;
+top: 5000px;
+left:1700px;
+width: 75px;
+height: auto;
+}
+
+.image-container8 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.image-container8:hover {
+    transform: scale(1.2); /* Увеличение изображения на 20% */
+}
+
+.image-container9 {
+    position: absolute;
+    top: 5100px;
+    left:1700px;
+    width: 75px;
+    height: auto;
+    }
+
+.image-container9 {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.image-container9:hover {
+    transform: scale(1.2); /* Увеличение изображения на 20% */
+}
+
